@@ -1,0 +1,9 @@
+public class Aluno_nota {
+public static void main(String[] args) throws Exception {
+    Resultado resultado1 = new Resultado("João, ", 123456, 25, 35, 30,90);
+    Resultado resultado2 = new Resultado("Maria, ", 23456, 20, 30, 40, 90 );
+    
+    System.out.println(resultado1.falar());
+    System.out.println(resultado2.falar());
+}
+}
