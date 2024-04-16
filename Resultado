@@ -1,0 +1,40 @@
+public class Resultado {
+    private String nome;
+    private int ra, nota1, nota2, nota3;
+    private int soma = nota1 + nota2 + nota3;
+
+    public Resultado(String nome, int ra, int nota1, int nota2, int nota3, int soma) {
+        this.nome = nome;
+        this.ra = ra; 
+        this.nota1 = nota1;
+        this.nota2 = nota2;
+        this.nota3 = nota3;
+        this.soma = soma;
+    }
+
+    public String falar(){
+        return "Nome: " + nome + "ra: " + ra + " nota1: " + nota1 + ", nota2: " + nota2 + ", nota3: " + nota3 + ", Soma das notas: " + soma;
+    }
+
+    public String getNome(){
+        return nome;
+    }
+
+    public int getRa(){
+        return ra;
+    }
+
+    public int getNota1(){
+        return nota1;
+    }
+    public int getNota2(){
+        return nota2;
+    }
+    public int getNota3(){
+        return nota3;
+    }
+    public int getSoma(){
+        return soma;
+    }
+
+}
